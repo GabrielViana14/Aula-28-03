@@ -3,7 +3,7 @@ import { View, Text, Button, FlatList, Image, TouchableOpacity, Alert } from 're
 import { useRouter } from 'expo-router';
 import api from '../../lib/api';
 import { global } from '../../styles/global';
-import { Contato } from '../../types/Contato';
+import { Contato } from '@/types/Contatos';
 import { useFocusEffect } from '@react-navigation/native';
 import { useCallback } from 'react';
 
